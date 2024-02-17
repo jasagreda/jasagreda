@@ -1,0 +1,434 @@
+body {
+    background-color: #250000;
+
+}
+
+header {
+  background-image: url(https://www.arianagrande.com/files/2024/01/hero-bg-compressed.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  margin-top:5%;
+}
+
+@media (max-width: 768px) {
+  header {
+      text-align: center;
+  }
+
+  h1 {
+      font-size: 1.5em;
+ 
+  }
+
+h2 { 
+  font-size: 200px;
+}
+
+  .icon-list {
+      font-size: 0.8em;
+  }
+
+  .vidandpic {
+      width: 80%;
+      margin: 0 auto;
+
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+  }
+
+  .stream {
+      text-align: center;
+  }
+}
+
+.bgimage {
+  background-image: url(https://www.arianagrande.com/files/2024/01/hero-bg-compressed.jpg);
+}
+
+.w3-row-padding img {
+  /* margin-bottom: 12px; */
+}
+
+.w3-sidebar {
+  width: 120px;
+  background: #222;
+}
+
+#main {
+  margin-left: px;
+}
+
+.background-container {
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  height: 100vh;
+  width: 100%; /* Set width to 100% */
+}
+
+@media only screen and (max-width: 600px) {
+  #main {
+      margin-left: 0;
+  }
+}
+
+.w3-jumbo {
+  size: 50px;
+}
+
+.w3-half {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.w3-half:hover .image {
+  opacity: 0.3;
+}
+
+.w3-half:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+  position: center;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+#logo {
+  padding-top: 2%;
+  font-family: myFirstFont;
+  color: white;
+  font-size: 80px;
+}
+
+#yesandvid,
+#yesandpic {
+  max-width: 50%;
+  height: auto;
+}
+
+#yesandvid {
+  border-radius: 17%;
+  position: relative;
+  width: 35%;
+  left: 5%;
+  height: auto;
+  width: 45%;
+  top: 1%;
+}
+
+#yesandpic {
+  max-width: 40%;
+  height: auto;
+  width: 50vw;
+  margin-left: 10%;
+  position: relative;
+  bottom: 25px;
+}
+
+.vidandpic {
+  display: flex;
+  position: relative;
+  left: 15px;
+  bottom: 28px;
+}
+
+.vidandpic img,
+.vidandpic video {
+  max-width: 100%;
+  height: auto;
+}
+
+.stream {
+  display: flex;
+  color: white;
+  position: relative;
+  left: 59%;
+  top: -110px;
+  text-align: center;
+
+}
+
+@media (max-width: 768px) {
+  .vidandpic {
+    flex-direction: column;
+    align-items: center;
+    top:10px;
+  }
+
+  #yesandvid{
+    left:-9px;
+    height:100%;
+    width:70%;
+  }
+
+  #yesandvid,
+  #yesandpic {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .stream {
+    text-align: center;
+    left: 120px;
+    padding-top:50px;
+    width: 100%;
+  }
+
+  button {
+    margin: 0 auto;
+  }
+}
+
+button {
+  background-color: #dee0d4;
+  color: rgb(87, 4, 4);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 1%;
+  position: relative;
+  top: 50px;
+  left: -270px;
+  width: 200px;
+}
+
+button:hover {
+  background-color: #c1c1b6;
+  color: rgb(160, 160, 158);
+}
+
+.yesandpng {
+  position: relative;
+  width: 120px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  padding: 0%;
+  border: 0%;
+}
+
+.yesandpng img {
+  max-width: 100%;
+  height: auto;
+  margin-top: -70px;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(Karrilee.otf);
+}
+
+@font-face {
+  font-family: mySecondFont;
+  src: url(NotCourierSans.otf);
+}
+
+@font-face {
+  font-family: myThirdFont;
+  src: url(Satisfaction.otf);
+}
+
+.icon-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  left: 80%;
+  top: -45px;
+  display: flex;
+}
+
+.icon-list li {
+  display: inline-block;
+  margin-right: 15px;
+  vertical-align: middle;
+}
+
+.icon-list li img {
+  width: 30px;
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 851px) {
+  .icon-list {
+      display: none;
+  }
+}
+
+#streamtxt {
+  font-family: mySecondFont;
+}
+
+.about {
+  font-family: myFirstFont;
+  font-size: 60px;
+}
+
+
+
+.whitetext {
+  color: white;
+}
+
+.font1 {
+  font-family: myFirstFont;
+}
+
+.font2 {
+  font-family: mySecondFont;
+}
+
+.slider {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  width: 100%;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.slide {
+  flex: 0 0 auto;
+  width: 80%;
+  scroll-snap-align: start;
+  position: relative;
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
+}
+
+.tooltip {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(80, 0, 0, 0.8);
+  color: #fff;
+  padding: 10px;
+  box-sizing: border-box;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.slide:hover .tooltip {
+  opacity: 1;
+}
+
+.fade {
+  animation: fadeIn 3s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.font3 {
+  font-family: myThirdFont;
+}
+
+h4 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.1);
+  background-color: #000000;
+}
+
+th, td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background-color: #540000;
+}
+
+tr:hover {
+  background-color: #520000;
+}
+
+.albums{
+  font-size:60px;
+}
+
+#table{
+  margin-top: 20px;
+}
+
+.icon-list2{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  left:600px;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.icon-list2 li {
+  display: inline-block;
+  margin-right: 15px;
+  vertical-align: middle;
+}
+
+.icon-list2 li img {
+  width: 30px;
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {}
+  .icon-list2 {
+    text-align: center;
+    left: 170px;
+    padding-top;
+    width: 100%;
+  }
